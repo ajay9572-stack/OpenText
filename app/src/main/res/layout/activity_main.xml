@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:background="#0000FF">
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            app:cardBackgroundColor="#FF0000"
+            android:layout_gravity="center"
+            android:id="@+id/cardweb"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="20dp">
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+                android:textColor="@color/white"
+
+                android:text="Web"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardBackgroundColor="#FF0000"
+            android:layout_marginTop="30dp"
+            android:id="@+id/cardcam"
+            android:layout_gravity="center"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="camera" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#FF0000"
+            app:cardCornerRadius="20dp"
+            tools:layout_editor_absoluteX="117dp"
+            android:id="@+id/cardgmail"
+            tools:layout_editor_absoluteY="39dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="YOUTUBE"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardcall"
+            android:layout_width="150dp"
+            android:layout_height="154dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#FF0000"
+            app:cardCornerRadius="20dp"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="39dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Call"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</layout>
+
+
